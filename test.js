@@ -1,7 +1,7 @@
 'use strict';
 var assert = require('assert');
 var fs = require('fs');
-var path = require('path');
+var path = require('path').posix;
 var gutil = require('gulp-util');
 var mkdirp = require('mkdirp');
 var rimraf = require('rimraf');
